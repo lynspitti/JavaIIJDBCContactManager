@@ -19,10 +19,10 @@ public class ContactsTest {
 
     @Test
     public void testAddInternalContact() {
-        String name = "name";
-        String phone = "";
-        String email = "";
-        String department = "";
+        String name = "John Doe";
+        String phone = "31337";
+        String email = "john@doe.com";
+        String department = "Holding";
         this.contacts.AddInternalContact(name, phone, email, department);
 
         assertEquals(name, this.contacts.getContacts().get(0).getName());
@@ -33,10 +33,10 @@ public class ContactsTest {
 
     @Test
     public void testAddExternalContact() {
-        String name = "name";
-        String phone = "";
-        String email = "";
-        String company = "";
+        String name = "John Doe";
+        String phone = "31337";
+        String email = "john@doe.com";
+        String company = "FBI";
         this.contacts.AddExternalContact(name, phone, email, company);
 
         assertEquals(name, this.contacts.getContacts().get(0).getName());

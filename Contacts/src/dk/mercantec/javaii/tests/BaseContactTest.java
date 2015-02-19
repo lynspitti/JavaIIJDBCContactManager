@@ -9,9 +9,9 @@ import static org.junit.Assert.*;
 
 public class BaseContactTest {
 
-    private static final String NAME = "name";
-    private static final String PHONE = "12341234";
-    private static final String EMAIL = "email@mail.dk";
+    private static final String NAME = "John Doe";
+    private static final String PHONE = "31337";
+    private static final String EMAIL = "john@doe.com";
 
     BaseContact baseContact;
 

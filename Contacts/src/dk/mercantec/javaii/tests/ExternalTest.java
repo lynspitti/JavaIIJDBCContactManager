@@ -10,10 +10,10 @@ import static org.junit.Assert.*;
 
 public class ExternalTest {
 
-    private static final String NAME = "name";
-    private static final String PHONE = "12341234";
-    private static final String EMAIL = "email@mail.dk";
-    private static final String COMPANY = "company";
+    private static final String NAME = "John Doe";
+    private static final String PHONE = "31337";
+    private static final String EMAIL = "john@doe.com";
+    private static final String COMPANY = "FBI";
 
     External external;
 
@@ -39,7 +39,7 @@ public class ExternalTest {
     }
 
     @Test
-    public void testToString() throws Exception {
+    public void testToString() {
         String expectedString = "Name: " + this.external.getName() +
                 "\nPhone: " + this.external.getPhone() +
                 "\nEmail: " + this.external.getEmail() +

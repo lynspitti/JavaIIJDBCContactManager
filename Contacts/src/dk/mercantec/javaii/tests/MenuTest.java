@@ -24,7 +24,7 @@ public class MenuTest {
 
             }
         };
-        boolean added = menu.Add("text", callback);
+        boolean added = menu.Add("Menu option1", callback);
         assertTrue(added);
     }
 }
